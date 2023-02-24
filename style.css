@@ -1,0 +1,90 @@
+body{
+    font-family: roboto;
+    margin: 20px;
+}
+li{
+    display: inline;
+}
+li>a{
+    text-decoration: none;
+    color: darkblue;
+    font-weight: bold;
+    font-size: 20px;
+    margin:20px;
+}
+ul{
+    margin-left: 50%;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+audio{
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 50px;
+}
+.photo{
+    display: flex;
+    justify-content: center;
+}
+img,iframe{
+    border : 3px solid black;
+    border-radius: 15px;
+}
+.lore{
+    font-size: 24px;
+    font-weight: bold;
+}
+section{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+#resume{
+    display: flex;
+    justify-content: center;
+}
+form{
+    margin-left: 28%;
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(2, 2, 2);
+}
+input{
+    margin-left: 20px;
+    width: 300px;
+    height: 22px;
+    border-radius: 7px;
+    border: 2px solid rgb(185, 185, 185);
+}
+select{
+    margin-left: 115px;
+    width: 100px;
+    height: 25px;
+    border-radius: 7px;
+    border: 2px solid rgb(185, 185, 185);
+}
+.pass{
+    margin-left: 34px;
+}
+button{
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 300px;
+    margin-left: 160px;
+}
+button:hover{
+    background-color: #3886ec;
+}
+footer{
+    display: inline-block;
+    margin-left: 43%;
+}
+.fa-facebook{
+    margin-left: 40%;
+}
